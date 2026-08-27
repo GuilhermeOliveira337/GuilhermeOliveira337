@@ -195,6 +195,7 @@ guilherme@olyver:~$ cat objetivos-2026.log --secao tecnico
 
 guilherme@olyver:~$ cat objetivos-2026.log --secao idiomas
 
+[ ████████████████░░░░░░░░ ]  65%   Espanhol para conversação profissional
 [ ██████████░░░░░░░░░░░░░░ ]  40%   Inglês para conversação técnica
 
 guilherme@olyver:~$ echo $OBJETIVO_PRINCIPAL
