@@ -185,14 +185,17 @@ Peça de prospecção comercial da Olyver Studio.
 ## `05.` &nbsp;OBJETIVOS ATUAIS
 
 ```console
-guilherme@olyver:~$ cat objetivos-2026.log
+guilherme@olyver:~$ cat objetivos-2026.log --secao tecnico
 
 [ ██████████████░░░░░░░░░░ ]  60%   Aprofundar React + TypeScript em produção
 [ ████████████░░░░░░░░░░░░ ]  50%   Next.js e renderização no servidor
 [ ██████████░░░░░░░░░░░░░░ ]  40%   Node.js no back-end: API REST e autenticação
-[ ██████████░░░░░░░░░░░░░░ ]  40%   Inglês para conversação técnica
 [ ███████░░░░░░░░░░░░░░░░░ ]  30%   Testes automatizados (Vitest / Testing Library)
 [ █████░░░░░░░░░░░░░░░░░░░ ]  20%   Acessibilidade (WCAG) aplicada por padrão
+
+guilherme@olyver:~$ cat objetivos-2026.log --secao idiomas
+
+[ ██████████░░░░░░░░░░░░░░ ]  40%   Inglês para conversação técnica
 
 guilherme@olyver:~$ echo $OBJETIVO_PRINCIPAL
 >> Entrar em um time de produto, com código maior e gente sênior por perto.
