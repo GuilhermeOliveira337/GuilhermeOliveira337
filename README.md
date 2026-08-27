@@ -210,16 +210,16 @@ guilherme@olyver:~$ _
 
 <div align="center">
 
-<img width="49%" src="./metrics/stats.svg" alt="Estatísticas de repositórios e atividade"/>
+<img width="49%" src="./metrics/stats.svg" alt="Métricas do perfil: repositórios, projetos no ar e contribuições"/>
 <img width="49%" src="./metrics/languages.svg" alt="Linguagens mais usadas"/>
-
-<br/>
-
-<img width="60%" src="./metrics/calendar.svg" alt="Calendário de contribuições do último ano"/>
 
 <br/><br/>
 
 <img height="165" src="https://streak-stats.demolab.com?user=GuilhermeOliveira337&theme=tokyonight&background=0d1117&border=ff2e97&ring=00d8ff&fire=ff2e97&currStreakLabel=00d8ff&sideLabels=c9d1d9&dates=8b949e" alt="Sequência de contribuições"/>
+
+<br/>
+
+<sub>`stats` e `languages` são gerados diariamente por GitHub Action a partir da API pública — sem depender de serviço de terceiro.</sub>
 
 </div>
 
@@ -229,11 +229,25 @@ guilherme@olyver:~$ _
 
 <!-- ══════════════════════ TROPHIES ══════════════════════ -->
 
-## `07.` &nbsp;CONQUISTAS
+## `07.` &nbsp;FORMAÇÃO E CERTIFICAÇÕES
 
 <div align="center">
 
-<img width="70%" src="./metrics/achievements.svg" alt="Conquistas no GitHub"/>
+<img src="https://img.shields.io/badge/An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas-Anhembi%20Morumbi%20%C2%B7%20cursando-0d1117?style=for-the-badge&labelColor=0d1117&color=00d8ff" alt="ADS — Anhembi Morumbi, cursando"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Full%20Stack%20Pro-DevClub-0d1117?style=flat-square&labelColor=0d1117&color=7b5cff" alt="Full Stack Pro — DevClub"/>
+<img src="https://img.shields.io/badge/Engenharia%20de%20Prompt-DevClub-0d1117?style=flat-square&labelColor=0d1117&color=7b5cff" alt="Engenharia de Prompt — DevClub"/>
+<img src="https://img.shields.io/badge/Intelig%C3%AAncia%20Artificial-Udemy%20%C2%B7%202025-0d1117?style=flat-square&labelColor=0d1117&color=ff2e97" alt="Inteligência Artificial — Udemy 2025"/>
+<img src="https://img.shields.io/badge/Java%20%C2%B7%20POO-Udemy%20%C2%B7%202023-0d1117?style=flat-square&labelColor=0d1117&color=ff2e97" alt="Java POO — Udemy 2023"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Python%20Fundamental-Senac-0d1117?style=flat-square&labelColor=0d1117&color=00d8ff" alt="Python Fundamental — Senac"/>
+<img src="https://img.shields.io/badge/Git%20%26%20GitHub-certificado-0d1117?style=flat-square&labelColor=0d1117&color=00d8ff" alt="Git e GitHub"/>
+<img src="https://img.shields.io/badge/HTML5-certificado-0d1117?style=flat-square&labelColor=0d1117&color=00d8ff" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS%20Intermedi%C3%A1rio-certificado-0d1117?style=flat-square&labelColor=0d1117&color=00d8ff" alt="CSS Intermediário"/>
 
 </div>
 

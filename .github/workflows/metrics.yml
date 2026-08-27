@@ -7,6 +7,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "scripts/gerar_metricas.py"
+      - ".github/workflows/metrics.yml"
 
 jobs:
   metricas:
@@ -15,55 +18,25 @@ jobs:
       contents: write
 
     steps:
-      # Painel principal: commits, repositorios e atividade recente
-      - name: Estatisticas gerais
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/stats.svg
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: GuilhermeOliveira337
-          template: classic
-          base: header, repositories
-          config_timezone: America/Sao_Paulo
-          config_display: large
-          config_octicon: "yes"
+      - uses: actions/checkout@v4
 
-      # Linguagens mais usadas
-      - name: Linguagens
-        uses: lowlighter/metrics@latest
+      - uses: actions/setup-python@v5
         with:
-          filename: metrics/languages.svg
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: GuilhermeOliveira337
-          base: ""
-          config_timezone: America/Sao_Paulo
-          plugin_languages: "yes"
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 1%
+          python-version: "3.12"
 
-      # Calendario de contribuicoes em 3D (substitui o activity graph)
-      - name: Calendario de atividade
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/calendar.svg
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: GuilhermeOliveira337
-          base: ""
-          config_timezone: America/Sao_Paulo
-          plugin_isocalendar: "yes"
-          plugin_isocalendar_duration: full-year
+      - name: Gera os SVGs a partir da API publica
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/gerar_metricas.py
 
-      # Conquistas (substitui os trophies)
-      - name: Conquistas
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/achievements.svg
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: GuilhermeOliveira337
-          base: ""
-          config_timezone: America/Sao_Paulo
-          plugin_achievements: "yes"
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
+      - name: Commita se houver mudanca
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics/
+          if git diff --staged --quiet; then
+            echo "Nenhuma mudanca nas metricas."
+          else
+            git commit -m "Atualiza metricas do perfil"
+            git push
+          fi
