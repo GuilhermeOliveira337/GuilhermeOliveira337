@@ -12,7 +12,7 @@ Sócio-fundador da **Olyver Studio**, estúdio de desenvolvimento web e agentes 
 
 | Projeto | O que é | |
 |---|---|---|
-| **[Agente de IA para WhatsApp](https://github.com/GuilhermeOliveira337/agente-ia-whatsapp)** | Agente conversacional em Node.js com tool use, memória de conversa e compliance no prompt — cérebro Claude | [ver o código](https://github.com/GuilhermeOliveira337/agente-ia-whatsapp) |
+| **[Agente de IA para WhatsApp](https://github.com/GuilhermeOliveira337/agente-ia-whatsapp)** | Agente conversacional em Node.js com tool use, memória de conversa, regras de compliance no prompt e campanha de outbound | [ver o código](https://github.com/GuilhermeOliveira337/agente-ia-whatsapp) |
 | **[Vitrine](https://github.com/GuilhermeOliveira337/vitrine-react)** | Catálogo em React + TypeScript consumindo API REST, com busca, filtro, paginação e carrinho persistente | [▶ ver no ar](https://guilhermeoliveira337.github.io/vitrine-react/) |
 | **[TechStore](https://github.com/GuilhermeOliveira337/TechStore)** | E-commerce em JavaScript puro com carrinho, busca e filtro funcionando sem framework | [▶ ver no ar](https://guilhermeoliveira337.github.io/TechStore/) |
 | **[Oliveira & Associados](https://github.com/GuilhermeOliveira337/Projeto-advocacia)** | Site institucional completo e responsivo, do zero em HTML, CSS e JS | [▶ ver no ar](https://guilhermeoliveira337.github.io/Projeto-advocacia/) |
