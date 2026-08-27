@@ -105,37 +105,64 @@ idiomas:   [ português (nativo), espanhol (intermediário), inglês (leitura t�
 
 ## `04.` &nbsp;PROJETOS EM DESTAQUE
 
-<div align="center">
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/GuilhermeOliveira337/agente-ia-whatsapp">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeOliveira337&repo=agente-ia-whatsapp&theme=tokyonight&bg_color=0d1117&border_color=00d8ff&icon_color=00d8ff&title_color=00d8ff&text_color=c9d1d9&hide_border=false" alt="agente-ia-whatsapp"/>
-</a>
-<a href="https://github.com/GuilhermeOliveira337/vitrine-react">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeOliveira337&repo=vitrine-react&theme=tokyonight&bg_color=0d1117&border_color=7b5cff&icon_color=7b5cff&title_color=7b5cff&text_color=c9d1d9&hide_border=false" alt="vitrine-react"/>
-</a>
+### `>` AGENTE DE IA PARA WHATSAPP
 
-<a href="https://github.com/GuilhermeOliveira337/TechStore">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeOliveira337&repo=TechStore&theme=tokyonight&bg_color=0d1117&border_color=ff2e97&icon_color=ff2e97&title_color=ff2e97&text_color=c9d1d9&hide_border=false" alt="TechStore"/>
-</a>
-<a href="https://github.com/GuilhermeOliveira337/furlan-petshop-previa">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeOliveira337&repo=furlan-petshop-previa&theme=tokyonight&bg_color=0d1117&border_color=00d8ff&icon_color=00d8ff&title_color=00d8ff&text_color=c9d1d9&hide_border=false" alt="furlan-petshop-previa"/>
-</a>
+<img src="https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=5fa04e&labelColor=0d1117" alt="Node.js"/> <img src="https://img.shields.io/badge/Express-0d1117?style=flat-square&logo=express&logoColor=ffffff&labelColor=0d1117" alt="Express"/> <img src="https://img.shields.io/badge/Twilio-0d1117?style=flat-square&logo=twilio&logoColor=f22f46&labelColor=0d1117" alt="Twilio"/>
 
-</div>
+Agente conversacional com **tool use**, memória de conversa, regras de compliance no prompt e campanha de outbound com adapter de voz plugável.
 
-<br/>
+Versão pública e anonimizada de um agente construído para uma corretora de seguros.
 
-<div align="center">
+**[`ver o código →`](https://github.com/GuilhermeOliveira337/agente-ia-whatsapp)**
 
-| PROJETO | DESCRIÇÃO | STACK | LINK |
-|:---|:---|:---|:---:|
-| **Agente de IA para WhatsApp** | Agente conversacional com tool use, memória de conversa, regras de compliance no prompt e campanha de outbound | `Node.js` `Express` | [código](https://github.com/GuilhermeOliveira337/agente-ia-whatsapp) |
-| **Vitrine** | Catálogo consumindo API REST, com busca, filtro, paginação e carrinho persistente. Publicado por CI | `React` `TypeScript` `Tailwind` | [▶ ao vivo](https://guilhermeoliveira337.github.io/vitrine-react/) |
-| **TechStore** | E-commerce com carrinho, busca e filtro funcionando **sem framework** | `JavaScript` `CSS3` | [▶ ao vivo](https://guilhermeoliveira337.github.io/TechStore/) |
-| **Oliveira & Associados** | Site institucional completo e responsivo, do zero | `HTML5` `CSS3` `JS` | [▶ ao vivo](https://guilhermeoliveira337.github.io/Projeto-advocacia/) |
-| **Furlan Pet Shop** | Prévia navegável de e-commerce com carrinho, checkout e camada de IA no atendimento | `HTML5` `CSS3` `JS` | [▶ ao vivo](https://guilhermeoliveira337.github.io/furlan-petshop-previa/) |
+</td>
+<td width="50%" valign="top">
 
-</div>
+### `>` VITRINE
+
+<img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61dafb&labelColor=0d1117" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178c6&labelColor=0d1117" alt="TypeScript"/> <img src="https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=38bdf8&labelColor=0d1117" alt="Tailwind"/>
+
+Catálogo consumindo **API REST** com Axios e TanStack Query: busca com debounce, filtro, paginação e carrinho persistente em Context API.
+
+Tratamento explícito dos quatro estados de requisição. Publicado por CI no GitHub Actions.
+
+**[`▶ ver ao vivo`](https://guilhermeoliveira337.github.io/vitrine-react/)** · **[`código`](https://github.com/GuilhermeOliveira337/vitrine-react)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `>` TECHSTORE
+
+<img src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=f7df1e&labelColor=0d1117" alt="JavaScript"/> <img src="https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=1572b6&labelColor=0d1117" alt="CSS3"/> <img src="https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=e34f26&labelColor=0d1117" alt="HTML5"/>
+
+E-commerce com carrinho, busca e filtro por categoria funcionando **sem framework** — manipulação de DOM e estado na mão.
+
+Construído antes do React, para entender o que a biblioteca faz por baixo.
+
+**[`▶ ver ao vivo`](https://guilhermeoliveira337.github.io/TechStore/)** · **[`código`](https://github.com/GuilhermeOliveira337/TechStore)**
+
+</td>
+<td width="50%" valign="top">
+
+### `>` FURLAN PET SHOP
+
+<img src="https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=e34f26&labelColor=0d1117" alt="HTML5"/> <img src="https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=1572b6&labelColor=0d1117" alt="CSS3"/> <img src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=f7df1e&labelColor=0d1117" alt="JavaScript"/>
+
+Prévia navegável de e-commerce para pet shop: carrinho, checkout, cálculo de frete e camada de IA no atendimento.
+
+Peça de prospecção comercial da Olyver Studio.
+
+**[`▶ ver ao vivo`](https://guilhermeoliveira337.github.io/furlan-petshop-previa/)** · **[`código`](https://github.com/GuilhermeOliveira337/furlan-petshop-previa)**
+
+</td>
+</tr>
+</table>
 
 <br/>
 
