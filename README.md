@@ -187,11 +187,11 @@ Peça de prospecção comercial da Olyver Studio.
 ```console
 guilherme@olyver:~$ cat objetivos-2026.log
 
-[ ████████████████████░░░░ ]  80%   Aprofundar React + TypeScript em produção
-[ ███████████████░░░░░░░░░ ]  60%   Testes automatizados (Vitest / Testing Library)
+[ ██████████████░░░░░░░░░░ ]  60%   Aprofundar React + TypeScript em produção
 [ ████████████░░░░░░░░░░░░ ]  50%   Next.js e renderização no servidor
 [ ██████████░░░░░░░░░░░░░░ ]  40%   Node.js no back-end: API REST e autenticação
-[ ████████░░░░░░░░░░░░░░░░ ]  35%   Inglês para conversação técnica
+[ ██████████░░░░░░░░░░░░░░ ]  40%   Inglês para conversação técnica
+[ ███████░░░░░░░░░░░░░░░░░ ]  30%   Testes automatizados (Vitest / Testing Library)
 [ █████░░░░░░░░░░░░░░░░░░░ ]  20%   Acessibilidade (WCAG) aplicada por padrão
 
 guilherme@olyver:~$ echo $OBJETIVO_PRINCIPAL
