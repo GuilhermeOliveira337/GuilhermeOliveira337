@@ -210,16 +210,12 @@ guilherme@olyver:~$ _
 
 <div align="center">
 
-<img width="49%" src="./metrics/stats.svg" alt="Métricas do perfil: repositórios, projetos no ar e contribuições"/>
-<img width="49%" src="./metrics/languages.svg" alt="Linguagens mais usadas"/>
-
-<br/><br/>
-
-<img height="165" src="https://streak-stats.demolab.com?user=GuilhermeOliveira337&theme=tokyonight&background=0d1117&border=ff2e97&ring=00d8ff&fire=ff2e97&currStreakLabel=00d8ff&sideLabels=c9d1d9&dates=8b949e" alt="Sequência de contribuições"/>
+<img width="49%" src="./metrics/perfil.svg" alt="Métricas do perfil: repositórios, projetos no ar, contribuições e sequências"/>
+<img width="49%" src="./metrics/linguagens.svg" alt="Linguagens mais usadas"/>
 
 <br/>
 
-<sub>`stats` e `languages` são gerados diariamente por GitHub Action a partir da API pública — sem depender de serviço de terceiro.</sub>
+<sub>Gerados diariamente por GitHub Action a partir da API pública — sem depender de serviço de terceiro.</sub>
 
 </div>
 

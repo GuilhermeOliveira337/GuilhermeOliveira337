@@ -73,28 +73,58 @@ def coletar():
         except urllib.error.HTTPError:
             pass
 
-    contribuicoes = 0
+    contribuicoes, sequencia_atual, sequencia_recorde = 0, 0, 0
     if TOKEN:
         try:
             r = graphql(
                 '{ user(login: "%s") { contributionsCollection '
-                "{ contributionCalendar { totalContributions } } } }" % USUARIO
+                "{ contributionCalendar { totalContributions weeks "
+                "{ contributionDays { date contributionCount } } } } } }" % USUARIO
             )
-            contribuicoes = r["data"]["user"]["contributionsCollection"][
-                "contributionCalendar"
-            ]["totalContributions"]
+            cal = r["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+            contribuicoes = cal["totalContributions"]
+            dias = [d for semana in cal["weeks"] for d in semana["contributionDays"]]
+            sequencia_atual, sequencia_recorde = calcular_sequencias(dias)
         except Exception:
-            contribuicoes = 0
+            pass
 
     return {
         "repositorios": len(proprios),
         "no_ar": no_ar,
         "contribuicoes": contribuicoes,
+        "sequencia_atual": sequencia_atual,
+        "sequencia_recorde": sequencia_recorde,
         "estrelas": sum(r["stargazers_count"] for r in proprios),
         "linguagens": dict(
             sorted(linguagens.items(), key=lambda kv: kv[1], reverse=True)[:6]
         ),
     }
+
+
+def calcular_sequencias(dias):
+    """Sequencia atual e recorde de dias seguidos com contribuicao.
+
+    O dia de hoje ainda pode receber commit, entao um zero no ultimo dia nao
+    quebra a sequencia atual — so os anteriores quebram.
+    """
+    dias = sorted(dias, key=lambda d: d["date"])
+    recorde = corrente = 0
+    for d in dias:
+        if d["contributionCount"] > 0:
+            corrente += 1
+            recorde = max(recorde, corrente)
+        else:
+            corrente = 0
+
+    atual = 0
+    for d in reversed(dias):
+        if d["contributionCount"] > 0:
+            atual += 1
+        elif atual == 0 and d is dias[-1]:
+            continue  # hoje ainda esta em aberto
+        else:
+            break
+    return atual, recorde
 
 
 DEFS = """
@@ -124,12 +154,13 @@ def moldura(largura, altura, titulo):
 
 
 def svg_estatisticas(d):
-    largura, altura = 480, 210
+    largura, altura = 480, 244
     linhas = [
         ("Repositorios publicos", str(d["repositorios"])),
         ("Projetos publicados no ar", str(d["no_ar"])),
         ("Contribuicoes (12 meses)", str(d["contribuicoes"])),
-        ("Linguagem principal", next(iter(d["linguagens"]), "-")),
+        ("Sequencia atual", f"{d['sequencia_atual']} dias"),
+        ("Maior sequencia", f"{d['sequencia_recorde']} dias"),
     ]
     corpo = ""
     y = 80
@@ -150,7 +181,7 @@ def svg_estatisticas(d):
 
 
 def svg_linguagens(d):
-    largura, altura = 480, 210
+    largura, altura = 480, 244
     total = sum(d["linguagens"].values()) or 1
     itens = list(d["linguagens"].items())
 
@@ -203,9 +234,9 @@ if __name__ == "__main__":
         sys.exit(1)
 
     os.makedirs(SAIDA, exist_ok=True)
-    with open(f"{SAIDA}/stats.svg", "w", encoding="utf-8") as f:
+    with open(f"{SAIDA}/perfil.svg", "w", encoding="utf-8") as f:
         f.write(svg_estatisticas(dados))
-    with open(f"{SAIDA}/languages.svg", "w", encoding="utf-8") as f:
+    with open(f"{SAIDA}/linguagens.svg", "w", encoding="utf-8") as f:
         f.write(svg_linguagens(dados))
 
     print(json.dumps(dados, indent=2, ensure_ascii=False))
