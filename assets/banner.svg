@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Guilherme Oliveira — Desenvolvedor Front-End e Agentes de IA">
+  <title>Guilherme Oliveira — Desenvolvedor Front-End e Agentes de IA</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0d1117"/>
+      <stop offset="55%"  stop-color="#111a2e"/>
+      <stop offset="100%" stop-color="#1a1030"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00d8ff"/>
+      <stop offset="55%"  stop-color="#7b5cff"/>
+      <stop offset="100%" stop-color="#ff2e97"/>
+    </linearGradient>
+
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00d8ff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#00d8ff" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#ff2e97" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00d8ff" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="1000" height="240" fill="url(#bg)"/>
+  <rect width="1000" height="240" fill="url(#grid)"/>
+
+  <!-- linha de horizonte -->
+  <path d="M0 176 Q 250 150 500 168 T 1000 154" fill="none" stroke="url(#fade)" stroke-width="1.5"/>
+  <path d="M0 176 Q 250 150 500 168 T 1000 154 L1000 240 L0 240 Z" fill="#00d8ff" fill-opacity=".04"/>
+
+  <!-- colchetes de HUD -->
+  <g stroke="url(#neon)" stroke-width="2" fill="none" opacity=".85">
+    <path d="M28 30 H70 M28 30 V72"/>
+    <path d="M972 30 H930 M972 30 V72"/>
+    <path d="M28 210 H70 M28 210 V168"/>
+    <path d="M972 210 H930 M972 210 V168"/>
+  </g>
+
+  <!-- nome -->
+  <text x="500" y="104" text-anchor="middle"
+        font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace"
+        font-size="52" font-weight="700" letter-spacing="4"
+        fill="#e6f7ff" filter="url(#glow)">GUILHERME OLIVEIRA</text>
+
+  <!-- traco neon -->
+  <rect x="330" y="124" width="340" height="2.5" rx="1.25" fill="url(#neon)"/>
+
+  <!-- subtitulo -->
+  <text x="500" y="158" text-anchor="middle"
+        font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace"
+        font-size="17" font-weight="500" letter-spacing="5"
+        fill="#7fdcff">DESENVOLVEDOR FRONT-END &#183; AGENTES DE IA</text>
+
+  <!-- rodape do banner -->
+  <text x="500" y="200" text-anchor="middle"
+        font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace"
+        font-size="12.5" letter-spacing="2.5"
+        fill="#8b9dc3">SAO PAULO &#183; BRASIL &#160;&#8212;&#160; REACT &#183; TYPESCRIPT &#183; NODE.JS</text>
+
+  <!-- varredura: anima quando o renderizador permite, invisivel quando nao -->
+  <rect x="0" y="0" width="1000" height="2" fill="url(#fade)" opacity="0">
+    <animate attributeName="y" values="30;210;30" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.7;0" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>

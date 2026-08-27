@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1b2a4a,75:00d8ff,100:ff2e97&height=190&section=header&text=GUILHERME%20OLIVEIRA&fontSize=44&fontColor=e6f7ff&fontAlignY=34&desc=Front-End%20Developer%20%C2%B7%20Agentes%20de%20IA&descSize=16&descAlignY=54&animation=fadeIn" width="100%" alt="Guilherme Oliveira — Front-End Developer"/>
+<img src="./assets/banner.svg" width="100%" alt="Guilherme Oliveira — Desenvolvedor Front-End e Agentes de IA"/>
 
 <!-- ── BOOT SEQUENCE ── -->
 
@@ -84,7 +84,7 @@ idiomas:   [ português (nativo), espanhol (intermediário), inglês (leitura t�
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=vscode,figma,postman,notion,ai,ps&theme=dark" alt="VS Code, Figma, Postman, Notion, Illustrator, Photoshop"/>
+<img src="https://skillicons.dev/icons?i=vscode,figma,postman,notion,ps&theme=dark" alt="VS Code, Figma, Postman, Notion, Photoshop"/>
 
 <br/><br/>
 
@@ -210,16 +210,16 @@ guilherme@olyver:~$ _
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=GuilhermeOliveira337&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&bg_color=0d1117&border_color=00d8ff&icon_color=00d8ff&title_color=00d8ff&text_color=c9d1d9&ring_color=ff2e97" alt="Estatísticas do GitHub"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermeOliveira337&layout=compact&langs_count=8&theme=tokyonight&bg_color=0d1117&border_color=7b5cff&title_color=7b5cff&text_color=c9d1d9" alt="Linguagens mais usadas"/>
+<img width="49%" src="./metrics/stats.svg" alt="Estatísticas de repositórios e atividade"/>
+<img width="49%" src="./metrics/languages.svg" alt="Linguagens mais usadas"/>
+
+<br/>
+
+<img width="60%" src="./metrics/calendar.svg" alt="Calendário de contribuições do último ano"/>
 
 <br/><br/>
 
-<img height="170" src="https://streak-stats.demolab.com?user=GuilhermeOliveira337&theme=tokyonight&background=0d1117&border=ff2e97&ring=00d8ff&fire=ff2e97&currStreakLabel=00d8ff&sideLabels=c9d1d9&dates=8b949e" alt="Sequência de contribuições"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=GuilhermeOliveira337&bg_color=0d1117&color=00d8ff&line=ff2e97&point=7b5cff&area=true&area_color=00d8ff&hide_border=false&custom_title=Atividade%20de%20Contribui%C3%A7%C3%B5es" width="100%" alt="Gráfico de atividade"/>
+<img height="165" src="https://streak-stats.demolab.com?user=GuilhermeOliveira337&theme=tokyonight&background=0d1117&border=ff2e97&ring=00d8ff&fire=ff2e97&currStreakLabel=00d8ff&sideLabels=c9d1d9&dates=8b949e" alt="Sequência de contribuições"/>
 
 </div>
 
@@ -233,7 +233,7 @@ guilherme@olyver:~$ _
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=GuilhermeOliveira337&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" width="100%" alt="Troféus do GitHub"/>
+<img width="70%" src="./metrics/achievements.svg" alt="Conquistas no GitHub"/>
 
 </div>
 
@@ -292,6 +292,6 @@ guilherme@olyver:~$ _
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=1200&color=7B5CFF&center=true&vCenter=true&width=560&height=36&lines=%22C%C3%B3digo+que+entra+em+produ%C3%A7%C3%A3o+%C3%A9+o+%C3%BAnico+que+conta.%22;guilherme%40olyver%3A~%24+exit+0" alt="Assinatura"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff2e97,25:7b5cff,60:00d8ff,100:0d1117&height=140&section=footer&text=obrigado%20pela%20visita&fontSize=22&fontColor=e6f7ff&fontAlignY=72&animation=fadeIn" width="100%" alt=""/>
+<img src="./assets/footer.svg" width="100%" alt="Obrigado pela visita"/>
 
 </div>
