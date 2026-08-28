@@ -19,21 +19,25 @@
   <rect x="24" y="44" width="432" height="1.5" fill="url(#neon)" opacity=".55"/>
   <clipPath id="r"><rect x="24" y="66" width="432" height="13" rx="6.5"/></clipPath>
   <g clip-path="url(#r)">
-  <rect x="24.0" y="66" width="207.8" height="13" fill="#e34c26"/>
-  <rect x="231.8" y="66" width="106.6" height="13" fill="#563d7c"/>
-  <rect x="338.4" y="66" width="81.9" height="13" fill="#f1e05a"/>
-  <rect x="420.3" y="66" width="35.7" height="13" fill="#3178c6"/>
+  <rect x="24.0" y="66" width="202.0" height="13" fill="#e34c26"/>
+  <rect x="226.0" y="66" width="103.6" height="13" fill="#563d7c"/>
+  <rect x="329.6" y="66" width="79.6" height="13" fill="#f1e05a"/>
+  <rect x="409.2" y="66" width="34.7" height="13" fill="#3178c6"/>
+  <rect x="443.9" y="66" width="12.1" height="13" fill="#3572A5"/>
   </g>
   <circle cx="29.0" cy="108" r="5" fill="#e34c26"/>
   <text x="42.0" y="112" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#c9d1d9">HTML</text>
-  <text x="226.0" y="112" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#7fdcff">48.1%</text>
+  <text x="226.0" y="112" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#7fdcff">46.8%</text>
   <circle cx="245.0" cy="108" r="5" fill="#563d7c"/>
   <text x="258.0" y="112" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#c9d1d9">CSS</text>
-  <text x="442.0" y="112" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#7fdcff">24.7%</text>
+  <text x="442.0" y="112" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#7fdcff">24.0%</text>
   <circle cx="29.0" cy="138" r="5" fill="#f1e05a"/>
   <text x="42.0" y="142" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#c9d1d9">JavaScript</text>
-  <text x="226.0" y="142" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#7fdcff">19.0%</text>
+  <text x="226.0" y="142" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#7fdcff">18.4%</text>
   <circle cx="245.0" cy="138" r="5" fill="#3178c6"/>
   <text x="258.0" y="142" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#c9d1d9">TypeScript</text>
-  <text x="442.0" y="142" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#7fdcff">8.3%</text>
+  <text x="442.0" y="142" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#7fdcff">8.0%</text>
+  <circle cx="29.0" cy="168" r="5" fill="#3572A5"/>
+  <text x="42.0" y="172" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#c9d1d9">Python</text>
+  <text x="226.0" y="172" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#7fdcff">2.8%</text>
 </svg>
