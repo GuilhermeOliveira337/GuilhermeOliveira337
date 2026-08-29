@@ -24,7 +24,7 @@
   <text x="24" y="148" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9dc3">Contribuicoes (12 meses)</text>
   <text x="456" y="148" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#e6f7ff">120</text>
   <text x="24" y="182" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9dc3">Sequencia atual</text>
-  <text x="456" y="182" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#e6f7ff">3 dias</text>
+  <text x="456" y="182" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#e6f7ff">0 dias</text>
   <text x="24" y="216" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9dc3">Maior sequencia</text>
   <text x="456" y="216" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#e6f7ff">3 dias</text>
 </svg>
